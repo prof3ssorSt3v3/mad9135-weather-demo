@@ -6,6 +6,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* 
+      React.Strict mode is only for development builds
+      It adds no visual components
+      Just enforces strict coding practices and
+      provides debugging info
+    */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
